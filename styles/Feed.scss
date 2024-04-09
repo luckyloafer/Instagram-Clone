@@ -1,0 +1,42 @@
+.feedContainer{
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 60px;
+    height: auto;
+}
+.postConatiner{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    
+    margin-bottom: 10px;
+}
+.postHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.postHeaderLeft{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 10px;
+    align-items: center;
+}
+.postIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5px;
+    margin-top: 10px;
+    padding-right: 5px;
+}
+.leftPostIcons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+

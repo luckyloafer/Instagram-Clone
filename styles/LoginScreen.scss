@@ -1,0 +1,32 @@
+.inputBox{
+    background-color: #004d4d;
+    
+    border-radius: 15px;
+    border: 1px solid gray;
+    width: 350px;
+    padding: 8px;
+    
+}
+.loginButton{
+    background-color: rgb(13, 111, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 20px;
+}
+.inputCont{
+    display: flex;
+    flex-direction: column;
+    gap: 13;
+}
+.registerButton{
+    background-color: rgb(10, 90, 188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 20px;
+    width: 350px;
+    border:1px solid white;
+}

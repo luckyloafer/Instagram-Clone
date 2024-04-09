@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    background-color: #8a8a8a;
+    border-radius: 10px;
+}
+.sharesContainer{
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-right: 0px;
+    gap: 30;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.shareProfile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    gap: 8px;
+    margin: 2px;
+}
+.profileImage{
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+}

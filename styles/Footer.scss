@@ -1,0 +1,25 @@
+.footerContainer{
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:black;
+    margin-top: 10px;
+    display: flex;
+    z-index: 1;
+    width: auto;
+    // bottom: 26;
+    top: 790px;
+    
+}
+.iconsContainer{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-between;
+    gap: 53px;
+    background-color:black;
+    padding: 10px;
+    padding-bottom: 20px;
+    z-index: 1;
+    
+}
